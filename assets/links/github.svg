@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510 98" role="img" aria-label="GitHub: Chiranjeeb1101">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#0b1422"/><stop offset="1" stop-color="#151c2a"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="510" height="98" rx="15" fill="url(#g)"/><rect x="1" y="1" width="508" height="96" rx="14" fill="none" stroke="#2bd9ff" stroke-opacity=".55"/>
+  <rect x="0" y="0" width="7" height="98" rx="3" fill="#2bd9ff" filter="url(#glow)"/><circle cx="45" cy="49" r="22" fill="#2bd9ff" fill-opacity=".13" stroke="#2bd9ff"/>
+  <text x="45" y="54" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#2bd9ff">GH</text>
+  <text x="84" y="39" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="#9ab0c5">GITHUB</text>
+  <text x="84" y="66" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#f8fbff">Chiranjeeb1101</text>
+  <circle cx="475" cy="49" r="5" fill="#2bd9ff"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+</svg>

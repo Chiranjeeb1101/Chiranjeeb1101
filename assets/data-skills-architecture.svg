@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="50%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+    <linearGradient id="cyanPillar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0.05" />
+    </linearGradient>
+    <linearGradient id="greenPillar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7ee787" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#7ee787" stop-opacity="0.05" />
+    </linearGradient>
+    <linearGradient id="yellowPillar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f2c811" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#f2c811" stop-opacity="0.05" />
+    </linearGradient>
+    <linearGradient id="purplePillar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0.05" />
+    </linearGradient>
+    <linearGradient id="redPillar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff7b72" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#ff7b72" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="240" rx="12" fill="url(#bgGrad2)" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Section Title Header -->
+  <text x="24" y="32" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#00E5FF" letter-spacing="1.5">DATA ANALYST CORE CAPABILITY ARCHITECTURE</text>
+
+  <!-- Pillar 1: SQL -->
+  <g transform="translate(20, 48)">
+    <rect width="160" height="172" rx="8" fill="url(#cyanPillar)" stroke="#00E5FF" stroke-width="1" opacity="0.9" />
+    <rect width="160" height="4" rx="2" fill="#00E5FF" />
+    <text x="14" y="24" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#00E5FF">01. SQL ENGINE</text>
+    <line x1="14" y1="32" x2="146" y2="32" stroke="#00E5FF" stroke-opacity="0.3" />
+    <text x="14" y="52" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#ffffff">• PostgreSQL &amp; MySQL</text>
+    <text x="14" y="72" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• Multi-table CTEs</text>
+    <text x="14" y="90" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• Window Functions</text>
+    <text x="14" y="108" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• Query Optimization</text>
+    <text x="14" y="126" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• RFM Segmentation</text>
+    <rect x="14" y="142" width="132" height="18" rx="4" fill="#0d1117" stroke="#00E5FF" stroke-width="0.5" />
+    <text x="80" y="154" font-family="'JetBrains Mono', monospace" font-size="9" fill="#00E5FF" text-anchor="middle">DATA MANIPULATION</text>
+  </g>
+
+  <!-- Pillar 2: PYTHON -->
+  <g transform="translate(192, 48)">
+    <rect width="160" height="172" rx="8" fill="url(#greenPillar)" stroke="#7ee787" stroke-width="1" opacity="0.9" />
+    <rect width="160" height="4" rx="2" fill="#7ee787" />
+    <text x="14" y="24" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#7ee787">02. PYTHON EDA</text>
+    <line x1="14" y1="32" x2="146" y2="32" stroke="#7ee787" stroke-opacity="0.3" />
+    <text x="14" y="52" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#ffffff">• Pandas &amp; NumPy</text>
+    <text x="14" y="72" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• Automated Cleaning</text>
+    <text x="14" y="90" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• Hypothesis Testing</text>
+    <text x="14" y="108" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• SciPy / Seaborn</text>
+    <text x="14" y="126" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• Automated Scripts</text>
+    <rect x="14" y="142" width="132" height="18" rx="4" fill="#0d1117" stroke="#7ee787" stroke-width="0.5" />
+    <text x="80" y="154" font-family="'JetBrains Mono', monospace" font-size="9" fill="#7ee787" text-anchor="middle">SCRIPTING &amp; EDA</text>
+  </g>
+
+  <!-- Pillar 3: BI & DAX -->
+  <g transform="translate(364, 48)">
+    <rect width="160" height="172" rx="8" fill="url(#yellowPillar)" stroke="#f2c811" stroke-width="1" opacity="0.9" />
+    <rect width="160" height="4" rx="2" fill="#f2c811" />
+    <text x="14" y="24" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#f2c811">03. POWER BI &amp; DAX</text>
+    <line x1="14" y1="32" x2="146" y2="32" stroke="#f2c811" stroke-opacity="0.3" />
+    <text x="14" y="52" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#ffffff">• Power BI &amp; Tableau</text>
+    <text x="14" y="72" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• Star Schema Design</text>
+    <text x="14" y="90" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• DAX Measures &amp; YTD</text>
+    <text x="14" y="108" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• Interactive UX</text>
+    <text x="14" y="126" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• C-Suite Dashboards</text>
+    <rect x="14" y="142" width="132" height="18" rx="4" fill="#0d1117" stroke="#f2c811" stroke-width="0.5" />
+    <text x="80" y="154" font-family="'JetBrains Mono', monospace" font-size="9" fill="#f2c811" text-anchor="middle">BI MODELING</text>
+  </g>
+
+  <!-- Pillar 4: DOMAIN METRICS -->
+  <g transform="translate(536, 48)">
+    <rect width="160" height="172" rx="8" fill="url(#purplePillar)" stroke="#bc8cff" stroke-width="1" opacity="0.9" />
+    <rect width="160" height="4" rx="2" fill="#bc8cff" />
+    <text x="14" y="24" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#bc8cff">04. DOMAIN METRICS</text>
+    <line x1="14" y1="32" x2="146" y2="32" stroke="#bc8cff" stroke-opacity="0.3" />
+    <text x="14" y="52" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#ffffff">• Unit Economics</text>
+    <text x="14" y="72" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• LTV / CAC Ratios</text>
+    <text x="14" y="90" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• Cohort Retention</text>
+    <text x="14" y="108" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• Funnel Conversion</text>
+    <text x="14" y="126" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• Churn Driver Analysis</text>
+    <rect x="14" y="142" width="132" height="18" rx="4" fill="#0d1117" stroke="#bc8cff" stroke-width="0.5" />
+    <text x="80" y="154" font-family="'JetBrains Mono', monospace" font-size="9" fill="#bc8cff" text-anchor="middle">BUSINESS ECONOMICS</text>
+  </g>
+
+  <!-- Pillar 5: DECISION SUPPORT -->
+  <g transform="translate(708, 48)">
+    <rect width="172" height="172" rx="8" fill="url(#redPillar)" stroke="#ff7b72" stroke-width="1" opacity="0.9" />
+    <rect width="172" height="4" rx="2" fill="#ff7b72" />
+    <text x="14" y="24" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#ff7b72">05. DECISION SUPPORT</text>
+    <line x1="14" y1="32" x2="158" y2="32" stroke="#ff7b72" stroke-opacity="0.3" />
+    <text x="14" y="52" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#ffffff">• Data Storytelling</text>
+    <text x="14" y="72" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• MECE Issue Trees</text>
+    <text x="14" y="90" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• A/B Test Validation</text>
+    <text x="14" y="108" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• Financial Modeling</text>
+    <text x="14" y="126" font-family="-apple-system, sans-serif" font-size="11" fill="#8b949e">• Executive Clarity</text>
+    <rect x="14" y="142" width="144" height="18" rx="4" fill="#0d1117" stroke="#ff7b72" stroke-width="0.5" />
+    <text x="86" y="154" font-family="'JetBrains Mono', monospace" font-size="9" fill="#ff7b72" text-anchor="middle">EXECUTIVE STRATEGY</text>
+  </g>
+</svg>

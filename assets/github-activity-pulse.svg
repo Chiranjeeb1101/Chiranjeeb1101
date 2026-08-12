@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 265" role="img" aria-labelledby="title desc">
+  <title id="title">Animated GitHub activity stream</title><desc id="desc">A live-style signal line representing continued building and sharing on GitHub.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0a121f"/><stop offset="1" stop-color="#101222"/></linearGradient>
+    <linearGradient id="fill" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#2bd9ff" stop-opacity=".34"/><stop offset="1" stop-color="#2bd9ff" stop-opacity="0"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1100" height="265" rx="20" fill="url(#bg)"/><rect x="1" y="1" width="1098" height="263" rx="19" fill="none" stroke="#2d445f"/>
+  <g font-family="Arial, Helvetica, sans-serif"><text x="42" y="48" fill="#f8fbff" font-size="23" font-weight="700">BUILD ACTIVITY STREAM</text><text x="42" y="72" fill="#93a8bd" font-size="13" letter-spacing="1.1">A VISUAL SIGNAL THAT MOVES WHEN YOU KEEP BUILDING</text><g transform="translate(871 31)"><rect width="185" height="28" rx="14" fill="#0f3027" stroke="#52f0ae" stroke-opacity=".7"/><circle cx="18" cy="14" r="5" fill="#52f0ae"><animate attributeName="opacity" values="1;.25;1" dur="1.3s" repeatCount="indefinite"/></circle><text x="34" y="19" fill="#89f7c3" font-size="11" font-weight="700" letter-spacing="1">KEEP SHIPPING</text></g></g>
+  <g stroke="#62809b" stroke-opacity=".2"><path d="M48 112H1052M48 150H1052M48 188H1052M48 226H1052"/><path d="M88 95V229M218 95V229M348 95V229M478 95V229M608 95V229M738 95V229M868 95V229M998 95V229"/></g>
+  <path d="M50 226 L112 226 L150 209 L193 219 L240 189 L286 204 L330 161 L375 190 L425 174 L469 198 L520 145 L568 172 L618 136 L666 157 L711 114 L758 155 L809 131 L859 169 L909 103 L958 126 L1002 86 L1050 116 L1050 226 Z" fill="url(#fill)"/>
+  <path d="M50 226 L112 226 L150 209 L193 219 L240 189 L286 204 L330 161 L375 190 L425 174 L469 198 L520 145 L568 172 L618 136 L666 157 L711 114 L758 155 L809 131 L859 169 L909 103 L958 126 L1002 86 L1050 116" fill="none" stroke="#2bd9ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" values="100;0;0;100" dur="7s" repeatCount="indefinite"/></path>
+  <g fill="#a78bfa" filter="url(#glow)"><circle cx="330" cy="161" r="4"><animate attributeName="r" values="3;7;3" dur="2s" repeatCount="indefinite"/></circle><circle cx="711" cy="114" r="4"><animate attributeName="r" values="3;7;3" begin=".7s" dur="2s" repeatCount="indefinite"/></circle><circle cx="1002" cy="86" r="5"><animate attributeName="r" values="4;9;4" begin="1.2s" dur="2s" repeatCount="indefinite"/></circle></g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#87a1b7"><text x="50" y="249">START</text><text x="968" y="249">NEXT PUSH</text></g>
+</svg>

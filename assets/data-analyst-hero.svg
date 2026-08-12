@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 330" role="img" aria-labelledby="title desc">
+  <title id="title">Chiranjeeb Kumar Sahoo — aspiring data analyst</title>
+  <desc id="desc">An animated analytics command centre showing Chiranjeeb's journey through SQL, Python, and Power BI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#07111d"/><stop offset=".55" stop-color="#101c30"/><stop offset="1" stop-color="#0b0d19"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#2bd9ff"/><stop offset=".52" stop-color="#9373ff"/><stop offset="1" stop-color="#52f0ae"/></linearGradient>
+    <linearGradient id="chart" x1="0" x2="0" y1="1" y2="0"><stop stop-color="#2bd9ff" stop-opacity=".12"/><stop offset="1" stop-color="#2bd9ff" stop-opacity=".72"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#89b4d0" stroke-opacity=".08"/></pattern>
+  </defs>
+  <rect width="1100" height="330" rx="22" fill="url(#bg)"/><rect width="1100" height="330" rx="22" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1098" height="328" rx="21" fill="none" stroke="#2c4967"/>
+  <rect x="0" y="0" width="1100" height="5" rx="2" fill="url(#accent)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(46 42)"><rect width="230" height="30" rx="15" fill="#0c2b38" stroke="#2bd9ff" stroke-opacity=".75"/><circle cx="18" cy="15" r="5" fill="#4ff1af"><animate attributeName="opacity" values="1;.3;1" dur="1.4s" repeatCount="indefinite"/></circle><text x="35" y="20" fill="#8ff5d0" font-size="12" font-weight="700" letter-spacing="1">ANALYTICS JOURNEY: LIVE</text></g>
+    <text x="46" y="122" fill="#f7fbff" font-size="38" font-weight="700">Chiranjeeb Kumar Sahoo</text>
+    <text x="46" y="151" fill="#56dcff" font-size="14" font-weight="700" letter-spacing="2">ASPIRING DATA ANALYST  /  BUILDING IN PUBLIC</text>
+    <text x="46" y="187" fill="#a7b8ca" font-size="15">Learning with real datasets, clear questions, and practical projects.</text>
+    <g transform="translate(46 220)" font-size="11" font-weight="700" text-anchor="middle"><g><rect width="104" height="30" rx="8" fill="#102538" stroke="#2bd9ff"/><text x="52" y="20" fill="#67e5ff">SQL</text></g><g transform="translate(116)"><rect width="104" height="30" rx="8" fill="#19243d" stroke="#9a7bff"/><text x="52" y="20" fill="#c2b3ff">PYTHON</text></g><g transform="translate(232)"><rect width="104" height="30" rx="8" fill="#2c2814" stroke="#f6ca43"/><text x="52" y="20" fill="#ffe28d">POWER BI</text></g></g>
+    <text x="46" y="291" fill="#7289a0" font-size="11" letter-spacing="1.4">QUESTION  →  DATA  →  INSIGHT  →  NEXT STEP</text>
+  </g>
+  <g transform="translate(676 34)">
+    <rect width="378" height="252" rx="17" fill="#091421" stroke="#304c6a"/>
+    <text x="24" y="34" fill="#c5d4e2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">PROJECT SIGNAL</text>
+    <path d="M24 202H350M24 158H350M24 114H350M24 70H350" stroke="#4d6c85" stroke-opacity=".25"/>
+    <path d="M33 204 L82 168 L130 183 L180 124 L229 139 L281 75 L337 52 L337 204 Z" fill="url(#chart)" opacity=".8"/>
+    <path d="M33 204 L82 168 L130 183 L180 124 L229 139 L281 75 L337 52" fill="none" stroke="#2bd9ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" stroke-dasharray="420" stroke-dashoffset="420"><animate attributeName="stroke-dashoffset" values="420;0;0;420" dur="6s" repeatCount="indefinite"/></path>
+    <g fill="#f8fbff" filter="url(#glow)"><circle cx="82" cy="168" r="5"><animate attributeName="opacity" values=".25;1;.25" dur="2s" repeatCount="indefinite"/></circle><circle cx="180" cy="124" r="5"><animate attributeName="opacity" values=".25;1;.25" begin=".4s" dur="2s" repeatCount="indefinite"/></circle><circle cx="281" cy="75" r="5"><animate attributeName="opacity" values=".25;1;.25" begin=".8s" dur="2s" repeatCount="indefinite"/></circle><circle cx="337" cy="52" r="6" fill="#52f0ae"><animate attributeName="r" values="4;8;4" dur="1.5s" repeatCount="indefinite"/></circle></g>
+    <g transform="translate(24 217)"><rect width="142" height="19" rx="9" fill="#123128"/><text x="71" y="14" text-anchor="middle" fill="#75f2b6" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700">BUILD • LEARN • SHARE</text></g>
+  </g>
+</svg>

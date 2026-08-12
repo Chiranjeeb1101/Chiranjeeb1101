@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+  <title id="title">Looping insight engine</title><desc id="desc">An animated loop showing data becoming insight and action before returning to a new question.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#090d16"/></linearGradient>
+    <linearGradient id="cycle" x1="0" x2="1"><stop stop-color="#28d5ff"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#4ceda6"/></linearGradient>
+    <filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1000" height="260" rx="20" fill="url(#bg)"/><rect x="1" y="1" width="998" height="258" rx="19" fill="none" stroke="#334155"/>
+  <text x="40" y="49" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#f8fbff">THE INSIGHT LOOP</text><text x="40" y="73" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1.2" fill="#94a7bc">A GOOD ANALYSIS ALWAYS LEADS TO THE NEXT QUESTION</text>
+  <g transform="translate(500 156)" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <ellipse rx="314" ry="76" fill="none" stroke="url(#cycle)" stroke-width="5" stroke-linecap="round" stroke-dasharray="5 13" opacity=".9"><animate attributeName="stroke-dashoffset" from="0" to="-72" dur="3s" repeatCount="indefinite"/></ellipse>
+    <ellipse rx="314" ry="76" fill="none" stroke="#dffbff" stroke-width="1" stroke-dasharray="2 16" opacity=".7"><animate attributeName="stroke-dashoffset" from="0" to="-54" dur="2s" repeatCount="indefinite"/></ellipse>
+    <g transform="translate(-240 -7)"><circle r="39" fill="#102a38" stroke="#29d3ff" stroke-width="2"/><text y="-4" fill="#f8fbff" font-size="14" font-weight="700">DATA</text><text y="15" fill="#8ea4b9" font-size="10">COLLECT</text></g>
+    <g transform="translate(-80 -58)"><circle r="39" fill="#24203e" stroke="#a78bfa" stroke-width="2"/><text y="-4" fill="#f8fbff" font-size="14" font-weight="700">EXPLORE</text><text y="15" fill="#aaa0c7" font-size="10">ANALYSE</text></g>
+    <g transform="translate(100 -58)"><circle r="39" fill="#362d14" stroke="#f6ca43" stroke-width="2"/><text y="-4" fill="#f8fbff" font-size="14" font-weight="700">INSIGHT</text><text y="15" fill="#c9b982" font-size="10">EXPLAIN</text></g>
+    <g transform="translate(244 -7)"><circle r="39" fill="#113025" stroke="#4ceda6" stroke-width="2"/><text y="-4" fill="#f8fbff" font-size="14" font-weight="700">ACTION</text><text y="15" fill="#93cbb0" font-size="10">IMPROVE</text></g>
+    <circle r="7" fill="#ffffff" filter="url(#g)"><animateMotion dur="5s" repeatCount="indefinite" path="M-314 0 A314 76 0 1 1 314 0 A314 76 0 1 1 -314 0"/></circle>
+  </g>
+</svg>

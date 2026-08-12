@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-labelledby="title desc">
+  <title id="title">Chiranjeeb's live data journey</title>
+  <desc id="desc">A visual flow from a business question through SQL, Python, dashboards, and a clear recommendation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#09131f"/><stop offset=".55" stop-color="#101b2d"/><stop offset="1" stop-color="#080d16"/></linearGradient>
+    <linearGradient id="line" x1="0" x2="1"><stop stop-color="#29d3ff"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#72f1b8"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#78a6c8" stroke-opacity=".08"/></pattern>
+  </defs>
+  <rect width="1000" height="330" rx="20" fill="url(#bg)"/>
+  <rect width="1000" height="330" rx="20" fill="url(#grid)"/>
+  <rect x="1" y="1" width="998" height="328" rx="19" fill="none" stroke="#2d4663"/>
+  <!-- Animated analytics orbit: a visual loop around the live status -->
+  <g transform="translate(696 52)" opacity=".9">
+    <circle r="35" fill="none" stroke="#2e5b78" stroke-width="1" stroke-dasharray="3 7"/>
+    <circle r="25" fill="none" stroke="#8b5cf6" stroke-opacity=".4" stroke-width="1" stroke-dasharray="2 6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="35" cy="0" r="4" fill="#29d3ff" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-25" cy="0" r="3" fill="#72f1b8" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="5" text-anchor="middle" fill="#dffbff" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700">DATA</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="42" y="54" fill="#f8fbff" font-size="25" font-weight="700">THE DATA JOURNEY</text>
+    <text x="42" y="79" fill="#8fa9c2" font-size="14" letter-spacing="1.4">LEARN  •  BUILD  •  EXPLAIN  •  IMPROVE</text>
+    <g transform="translate(796 31)">
+      <rect width="159" height="32" rx="16" fill="#0f2a28" stroke="#38e6a5" stroke-opacity=".7"/>
+      <circle cx="20" cy="16" r="5" fill="#45f1ad"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+      <text x="36" y="21" fill="#79f6c0" font-size="12" font-weight="700" letter-spacing="1">BUILDING IN PUBLIC</text>
+    </g>
+  </g>
+  <path d="M140 208 C205 208 205 208 256 208 S 405 208 456 208 S 605 208 656 208 S 805 208 856 208" fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round" opacity=".72"/>
+  <path d="M140 208 C205 208 205 208 256 208 S 405 208 456 208 S 605 208 656 208 S 805 208 856 208" fill="none" stroke="#dffbff" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 20" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="-56" dur="2s" repeatCount="indefinite"/></path>
+  <!-- Packets continuously travelling through the learning pipeline -->
+  <circle r="6" fill="#29d3ff" filter="url(#glow)"><animateMotion dur="4.5s" repeatCount="indefinite" path="M140 208 C205 208 205 208 256 208 S 405 208 456 208 S 605 208 656 208 S 805 208 856 208"/></circle>
+  <circle r="4" fill="#f6ca43" filter="url(#glow)"><animateMotion dur="4.5s" begin="-1.5s" repeatCount="indefinite" path="M140 208 C205 208 205 208 256 208 S 405 208 456 208 S 605 208 656 208 S 805 208 856 208"/></circle>
+  <circle r="5" fill="#72f1b8" filter="url(#glow)"><animateMotion dur="4.5s" begin="-3s" repeatCount="indefinite" path="M140 208 C205 208 205 208 256 208 S 405 208 456 208 S 605 208 656 208 S 805 208 856 208"/></circle>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <g transform="translate(48 126)"><rect width="184" height="160" rx="16" fill="#111e30" stroke="#ff7b72"/><rect width="184" height="6" rx="3" fill="#ff7b72"/><circle cx="92" cy="44" r="25" fill="#ff7b72" fill-opacity=".12"/><text x="92" y="51" fill="#ff9c95" font-size="19" font-weight="700">01</text><text x="92" y="94" fill="#f8fbff" font-size="17" font-weight="700">ASK</text><text x="92" y="119" fill="#9cb1c6" font-size="12">Start with a useful</text><text x="92" y="137" fill="#9cb1c6" font-size="12">business question</text></g>
+    <g transform="translate(248 126)"><rect width="184" height="160" rx="16" fill="#111e30" stroke="#31d5ff"/><rect width="184" height="6" rx="3" fill="#31d5ff"/><circle cx="92" cy="44" r="25" fill="#31d5ff" fill-opacity=".12"/><text x="92" y="51" fill="#6be5ff" font-size="19" font-weight="700">02</text><text x="92" y="94" fill="#f8fbff" font-size="17" font-weight="700">QUERY</text><text x="92" y="119" fill="#9cb1c6" font-size="12">Find and clean the</text><text x="92" y="137" fill="#9cb1c6" font-size="12">right data with SQL</text></g>
+    <g transform="translate(448 126)"><rect width="184" height="160" rx="16" fill="#111e30" stroke="#a78bfa"/><rect width="184" height="6" rx="3" fill="#a78bfa"/><circle cx="92" cy="44" r="25" fill="#a78bfa" fill-opacity=".12"/><text x="92" y="51" fill="#c7b8ff" font-size="19" font-weight="700">03</text><text x="92" y="94" fill="#f8fbff" font-size="17" font-weight="700">EXPLORE</text><text x="92" y="119" fill="#9cb1c6" font-size="12">Use Python to test</text><text x="92" y="137" fill="#9cb1c6" font-size="12">patterns and ideas</text></g>
+    <g transform="translate(648 126)"><rect width="184" height="160" rx="16" fill="#111e30" stroke="#f6ca43"/><rect width="184" height="6" rx="3" fill="#f6ca43"/><circle cx="92" cy="44" r="25" fill="#f6ca43" fill-opacity=".12"/><text x="92" y="51" fill="#ffe589" font-size="19" font-weight="700">04</text><text x="92" y="94" fill="#f8fbff" font-size="17" font-weight="700">VISUALISE</text><text x="92" y="119" fill="#9cb1c6" font-size="12">Make the insight easy</text><text x="92" y="137" fill="#9cb1c6" font-size="12">to see in Power BI</text></g>
+    <g transform="translate(848 126)"><rect width="104" height="160" rx="16" fill="#10291f" stroke="#45eaae"/><rect width="104" height="6" rx="3" fill="#45eaae"/><circle cx="52" cy="44" r="25" fill="#45eaae" fill-opacity=".12"/><text x="52" y="51" fill="#80f8c5" font-size="19" font-weight="700">05</text><text x="52" y="94" fill="#f8fbff" font-size="14" font-weight="700">SHARE</text><text x="52" y="119" fill="#9cb1c6" font-size="11">Clear</text><text x="52" y="136" fill="#9cb1c6" font-size="11">next step</text></g>
+  </g>
+</svg>
