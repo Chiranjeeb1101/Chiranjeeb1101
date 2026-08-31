@@ -218,13 +218,13 @@ Right now, I’m learning **SQL, Python, Excel, Power BI, and data storytelling*
 </p>
 
 <details>
-  <summary><b>View my 3D GitHub contribution calendar</b></summary>
+  <summary><b>View my 3D GitHub contribution calendar (Animated)</b></summary>
   <br />
   <p align="center">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg">
-      <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-view.svg">
-      <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D GitHub Contribution Graph" width="100%" />
+      <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-green-animate.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg">
+      <img src="./profile-3d-contrib/profile-green-animate.svg" alt="Animated 3D GitHub Contribution Graph" width="100%" />
     </picture>
   </p>
 </details>
