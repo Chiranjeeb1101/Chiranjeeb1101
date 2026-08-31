@@ -218,10 +218,14 @@ Right now, I’m learning **SQL, Python, Excel, Power BI, and data storytelling*
 </p>
 
 <details>
-  <summary><b>View my live GitHub contribution history</b></summary>
+  <summary><b>View my 3D GitHub contribution calendar</b></summary>
   <br />
   <p align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Chiranjeeb1101&bg_color=0D1117&color=C9D1D9&line=00E5FF&point=8B5CF6&area=true&area_color=00E5FF&hide_border=false&border_color=30363D" alt="Live GitHub contribution activity graph" width="100%" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-view.svg">
+      <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D GitHub Contribution Graph" width="100%" />
+    </picture>
   </p>
 </details>
 

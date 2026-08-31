@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <linearGradient id="barGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="100%" stop-color="#007799" />
+    </linearGradient>
+    <linearGradient id="barGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#4C1D95" />
+    </linearGradient>
+    <linearGradient id="barGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#52f0ae" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+    <filter id="cardGlow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="850" height="420" rx="14" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Header Text -->
+  <text x="40" y="45" fill="#58a6ff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700">3D Isometric Contribution Graph</text>
+  <text x="40" y="70" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Daily contribution landscape (Updates automatically via GitHub Actions)</text>
+
+  <!-- Status Pill -->
+  <g transform="translate(640, 28)">
+    <rect width="170" height="26" rx="13" fill="#102f25" stroke="#52f0ae" stroke-width="1" />
+    <circle cx="16" cy="13" r="4" fill="#52f0ae">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <text x="32" y="17" fill="#89f7c3" font-family="Arial, sans-serif" font-size="11" font-weight="700">ACTION READY</text>
+  </g>
+
+  <!-- 3D Isometric Grid Illusion -->
+  <g transform="translate(425, 140)">
+    <!-- Base Plane -->
+    <path d="M 0,-50 L 350,110 L 0,270 L -350,110 Z" fill="#161b22" stroke="#21262d" stroke-width="1" />
+
+    <!-- Isometric Tiles / Columns -->
+    <!-- Column cluster 1 -->
+    <g transform="translate(-180, 50)">
+      <polygon points="0,-40 25,-27 0,-14 -25,-27" fill="#00E5FF" />
+      <polygon points="-25,-27 0,-14 0,30 -25,17" fill="#0099bb" />
+      <polygon points="0,-14 25,-27 25,17 0,30" fill="#00b4d8" />
+    </g>
+    <g transform="translate(-140, 70)">
+      <polygon points="0,-70 25,-57 0,-44 -25,-57" fill="#52f0ae" />
+      <polygon points="-25,-57 0,-44 0,30 -25,17" fill="#16a34a" />
+      <polygon points="0,-44 25,-57 25,17 0,30" fill="#22c55e" />
+    </g>
+    <g transform="translate(-100, 40)">
+      <polygon points="0,-90 25,-77 0,-64 -25,-77" fill="#8B5CF6" />
+      <polygon points="-25,-77 0,-64 0,30 -25,17" fill="#6d28d9" />
+      <polygon points="0,-64 25,-77 25,17 0,30" fill="#7c3aed" />
+    </g>
+
+    <!-- Center clusters -->
+    <g transform="translate(-50, 80)">
+      <polygon points="0,-110 25,-97 0,-84 -25,-97" fill="#00E5FF" filter="url(#cardGlow)" />
+      <polygon points="-25,-97 0,-84 0,30 -25,17" fill="#007799" />
+      <polygon points="0,-84 25,-97 25,17 0,30" fill="#00E5FF" />
+    </g>
+    <g transform="translate(0, 100)">
+      <polygon points="0,-130 25,-117 0,-104 -25,-117" fill="#8B5CF6" />
+      <polygon points="-25,-117 0,-104 0,30 -25,17" fill="#5b21b6" />
+      <polygon points="0,-104 25,-117 25,17 0,30" fill="#a78bfa" />
+    </g>
+    <g transform="translate(50, 70)">
+      <polygon points="0,-80 25,-67 0,-54 -25,-67" fill="#52f0ae" />
+      <polygon points="-25,-67 0,-54 0,30 -25,17" fill="#15803d" />
+      <polygon points="0,-54 25,-67 25,17 0,30" fill="#4ade80" />
+    </g>
+
+    <!-- Right clusters -->
+    <g transform="translate(110, 50)">
+      <polygon points="0,-100 25,-87 0,-74 -25,-87" fill="#00E5FF" />
+      <polygon points="-25,-87 0,-74 0,30 -25,17" fill="#0284c7" />
+      <polygon points="0,-74 25,-87 25,17 0,30" fill="#38bdf8" />
+    </g>
+    <g transform="translate(160, 30)">
+      <polygon points="0,-60 25,-47 0,-34 -25,-47" fill="#8B5CF6" />
+      <polygon points="-25,-47 0,-34 0,30 -25,17" fill="#6d28d9" />
+      <polygon points="0,-34 25,-47 25,17 0,30" fill="#c084fc" />
+    </g>
+  </g>
+
+  <!-- Footer notice -->
+  <text x="425" y="395" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Once pushed to GitHub, the workflow will generate real commit-based 3D skyscrapers</text>
+</svg>
