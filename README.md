@@ -224,7 +224,7 @@ Right now, I’m learning **SQL, Python, Excel, Power BI, and data storytelling*
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-green-animate.svg">
       <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg">
-      <img src="./profile-3d-contrib/profile-green-animate.svg" alt="Animated 3D GitHub Contribution Graph" width="100%" />
+      <img src="./profile-3d-contrib/profile-green-animate.svg" alt="Animated 3D GitHub Contribution Graph" width="85%" />
     </picture>
   </p>
 </details>
